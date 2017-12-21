@@ -1,8 +1,8 @@
-title: git-wiki-demo
-description: This is a demo of git-wiki theme for jekyll
+title: Comunicaciones de Datos
+description: Repositorio con contenido teórico y práctico.
 show_downloads: true
-comments: true
-logo_url: https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1122px-Wikipedia-logo-v2.svg.png
+comments: false
+logo_url: https://elblogdemaripozo.files.wordpress.com/2011/03/red-de-datos.jpg
 google_analytics:
 git_branch: gh-pages
 theme: 
