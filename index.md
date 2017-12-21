@@ -1,4 +1,4 @@
-# Welcome to git-wiki demo
+# TP1: 
 
 This is a [demo](wiki/Demo.md) of git-wiki theme for jekyll.
 
@@ -20,7 +20,7 @@ Then [share your wiki with us!](wiki/Showreel.md) please.
 **Note:**
 You can even include the github wiki as a submodule and enable the conf, but it's an experimental feature and it implies less advantages and greater disadvantages for now.
 
-## Installation instructions
+# TP2: 
 
 1. Fork or copy [this repository](https://github.com/drassil/git-wiki)
 
@@ -36,13 +36,13 @@ You can even include the github wiki as a submodule and enable the conf, but it'
 
 We suggest the creation of a /wiki/ subfolder that collects all your .md pages (except index.md)
 
-## Current known limitations
+# TP3: 
 
 * Non-existent wiki page links are not "[red](wiki/red.md)".
 
 * You can't use the wiki link format: [[example]]. Please, use gh-pages links instead: \[example\](example) 
 
-## Customization
+# TP4: 
 
 You can create following files in _includes folder to costumize git-wiki without patching original code:
 
@@ -51,13 +51,13 @@ You can create following files in _includes folder to costumize git-wiki without
 * comments.html -> this is mostly used to integrate social comments under page contents
 * footer.html -> this file will be included in left side of the footer.
 
-## Looking for collaboration
+# TP5: 
 
 Do you like this project? then, contact us via [chat](https://gitter.im/Drassil/general?utm_source=share-link&utm_medium=link&utm_campaign=share-link) , <a href="mailto:staff-drassil@googlegroups.com">email</a>  or send us a PR to improve it.
 
 Thank you!
 
-## Components used
+# TP6: 
 
 - [jekyll-table-of-contents](https://github.com/ghiculescu/jekyll-table-of-contents)
 
@@ -65,3 +65,5 @@ Thank you!
 
 
 [MIT LICENSE](LICENSE)
+
+# TP7: 
