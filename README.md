@@ -1,24 +1,21 @@
-# TP1: 
+# TP1: Capa de Aplicación
 
-This is a [demo](wiki/Demo.md) of git-wiki theme for jekyll.
+**Objetivos:** Comprender el funcionamiento del protocolo de la capa de aplicación HTTP y aprender comandos básicos de la consola de linux.
 
-it's a full featured wiki powered by git, github pages and pull-requests!
+**Bibliografía:** Computer Networking de Kurose y Ross, Capítulo 1 y 2
 
-It means: 
+Instrucciones para la instalación del Software:
+1. Descargar e instalar wireshark de la [página oficial](https://www.wireshark.org/);
+2. Instalar y descargar netcat para linux con el comando _"sudo apt-get install netcat"_. Para usuarios de Windows 10, seguir el tutorial para instalar bash en Windows de [aquí](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows
+-10/). Una vez que se puede utilizar bash, también ejecutar _"sudo apt-get install netcat"_;
+3. Descargar e instalar la última versión de virtual box de la [página oficial](https://www.virtualbox.org/);
+4. Descargar ubuntu server 16.04.3 LTS de la [página](https://www.ubuntu.com/download/server);
+5. Instalar ubuntu server en una máquina virtual: alcanzan los 10gb de espacio de disco que el virtual box propone y 1GB de memoria. (Si tienen problemas con este paso, entren a la BIOS de su máquina y aseguren que esté habilitada la virtualización);
+6. Una vez instalado el ubuntu server, ingresar con usuario y contraseña y ejecutar los siguientes comandos: _"sudo apt install python-pip"_. Cuando termine el proceso de instalación, ejecutar _"pip install flask"_. Apagar la máquina con el comando _"sudo shutdown now"_;
+7. en la parte de configuración de la máquina virtual, vayan a Red (network), adaptador 1 y cambien lo que dice NAT a adaptador puente (bridged adapter).
 
-* Improvements in the cooperative aspect: forks, pull-requests and roles.
-* You can customize your wiki as you want with style sheets and even changing the layout.
-* No databases! Only static files that can be downloaded in a few seconds.
-* Markdown and html mixed together!
-* History, revision comparison and everything you need from a wiki platform.
-* You can edit your pages with the standard git editor, prose.io (integrated) or any kind of editor you prefer.
 
-You can fork/copy the master branch now and start your wiki in just 1 minute.
-
-Then [share your wiki with us!](wiki/Showreel.md) please.
-
-**Note:**
-You can even include the github wiki as a submodule and enable the conf, but it's an experimental feature and it implies less advantages and greater disadvantages for now.
+Puede continuar con la actividad propuesta en clase, acceda al siguiente enlace [TP1](wiki/Demo.md).
 
 # TP2: 
 
@@ -66,4 +63,4 @@ Thank you!
 
 [MIT LICENSE](LICENSE)
 
-# TP7: 
+# TP7:
